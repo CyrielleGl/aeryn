@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'aerynn';
+  yearNow = new Date().getFullYear().toString();
 }
